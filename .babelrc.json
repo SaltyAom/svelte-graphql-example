@@ -1,0 +1,15 @@
+{
+	"presets": [
+		[
+			"@babel/env",
+			{
+				"targets": {
+					"browsers": [">0.25%", "not dead", "not op_mini all"]
+				},
+				"useBuiltIns": "usage",
+				"corejs": "3.6.4"
+			}
+		],
+		["@babel/preset-modules"]
+	]
+}
